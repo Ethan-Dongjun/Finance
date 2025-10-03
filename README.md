@@ -1,6 +1,12 @@
 # 문제 해결 기록
 처음부터 접근하려는 안좋은 습관이 있다, 항상 문제는 역으로 접근해보자
 
+## venv
+간단한 데이터 호출도 30분 걸려도 안되길래 찾아보니 파이썬 버전 3.8이 너무 낮단다  
+conda update하면(conda update -n base conda, conda update --all) 파이썬 업그레이드 안해주길래  
+어쩔 수 없이 venv 생성(conda search python, conda create -n py3130 python=3.13.0, conda update --all)  
+
+
 ## git
 0. 질문
 반드시 커밋은 cmd켜서 git push origin main해야하는가?
@@ -41,7 +47,7 @@
 99. 기타  
 \로 다음줄에 넘겨서 입력 가능  
 
-## 크롤링
+## crawling
 0. 질문  
 1.   
 99. 기타  
