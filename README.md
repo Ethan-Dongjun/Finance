@@ -1,6 +1,12 @@
 # 문제 해결 기록
+처음부터 접근하려는 안좋은 습관이 있다, 항상 문제는 역으로 접근해보자
+
+## 환경 세팅
+conda create 
 
 ## git
+0. 질문
+반드시 커밋은 cmd켜서 git push origin main해야하는가?
 1. 세팅
     1) 계정 등록
     git config  - global user.name "아이디"
@@ -16,4 +22,22 @@
     5) git branch main
     원격 repo에 main브랜치에 변경 푸쉬
     git push origin main
+2. git push origin main 했더니 failed to push some refs to ~
+원격 repo에 로컬에 없는 파일이 있다 (협력할 때 빈번)
+결국 먼저 pull해서 해당 파일 받아오고 push 해야함
+99. 기타 내용
 
+## python
+0. 질문
+1. class
+    모듈 불러오는 것만으로 부족, 특정 class까지 호출해야함
+    ex) import pandas 해도 read_csv는 해당 모듈 최상위
+    import datetime
+    from datetime import datetime 모듈안의 클래스 이름까지 써줘야함
+99. 기타
+\로 다음줄에 넘겨서 입력 가능
+
+## 크롤링
+0. 질문
+1. 
+99. 기타
