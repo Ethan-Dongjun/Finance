@@ -43,7 +43,8 @@ conda update하면(conda update -n base conda, conda update --all) 파이썬 업
     from datetime import datetime 모듈안의 클래스 이름까지 써줘야함 
 2. ValueError: The truth value of a Series is ambiguous  
     문제는 항상 데이터 타입이 맞지 않기 때문  
-    df.squeeze로 해결, dataframe하면 series가, series하면 스칼라값이 됨 (아예 row데이터 등을 삭제)  
+3. if __name__="__main__": 어떻게 쓰는 건가  
+모듈내 클래스나 함수 밖에 있어야 파일 실행시 true가 되는 구문  
 99. 기타  
 \로 다음줄에 넘겨서 입력 가능  
 
