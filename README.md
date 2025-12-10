@@ -8,8 +8,6 @@ conda update하면(conda update -n base conda, conda update --all) 파이썬 업
 
 
 ## git
-0. 질문
-반드시 커밋은 cmd켜서 git push origin main해야하는가?
 1. 세팅
     1) 계정 등록  
     git config  - global user.name "아이디"  
@@ -19,6 +17,7 @@ conda update하면(conda update -n base conda, conda update --all) 파이썬 업
     git init  
     3) git add readme.md  
     git commit -m "커밋메시지"  
+    안되면 echo "# temp-repository" >> README.md  
     추가안하면 branch 생성이 안됨  
     4) 로컬 디렉토리 경로에서 git remote add origin "주소"  
     origin은 url의 별칭  
